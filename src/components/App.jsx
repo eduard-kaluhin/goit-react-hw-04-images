@@ -72,7 +72,6 @@ export const App = () => {
       setHits([]);
     }
   };
-
   const scroll = () => {
     const { clientHeight } = document.documentElement;
     window.scrollBy({
